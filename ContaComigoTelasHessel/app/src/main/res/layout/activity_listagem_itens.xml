@@ -36,14 +36,14 @@
                         android:layout_marginBottom="7dp"
                         android:text="Olá, Fulano"
                         android:textColor="#000000"
-                        android:textSize="18dp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="228dp"
                         android:layout_height="64dp"
                         android:text="Vocês estão na mesa 2"
                         android:textColor="#000000"
-                        android:textSize="24dp"
+                        android:textSize="24sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -51,20 +51,18 @@
                 <!--Layout para receber a img da mesa-->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:gravity="end|center_vertical">
 
                     <ImageView
                         android:layout_width="64dp"
                         android:layout_height="64dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="22dp"
                         android:src="@mipmap/imagem_mesa" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
-            <!-- marginTop original é 42dp-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
@@ -77,26 +75,28 @@
                     android:layout_height="27dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@mipmap/search_um" />
+                    android:src="@mipmap/lupa_search" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="59dp"
                     android:layout_marginLeft="20dp"
                     android:background="@drawable/radius_input_tela_listagem_itens"
-                    android:hint="Buscar item..."></EditText>
+                    android:hint="Buscar item..."
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
-            <!--<ScrollView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">-->
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp">
 
-                <!-- marginTop original é 48dp-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="4dp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -134,9 +134,10 @@
                             android:textStyle="bold" />
 
                         <View
-                            android:layout_width="220dp"
+                            android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:layout_marginLeft="35dp"
+                            android:layout_marginRight="35dp"
                             android:background="#ACAAAA" />
 
                     </LinearLayout>
@@ -147,17 +148,21 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="-32dp"
                         android:backgroundTint="#FFFFFF"
+                        android:elevation="8dp"
+                        android:stateListAnimator="@null"
                         android:text="Dividir a conta"
                         android:textColor="#000000"
                         android:textSize="18sp"
-                        android:textStyle="bold"></Button>
+                        android:textStyle="bold" />
 
-                    <!-- marginTop original é 56dp-->
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="93dp"
+                        android:layout_height="92dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="19dp"
-                        android:background="@drawable/radius_item_tela_listagem_itens">
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/radius_item_tela_listagem_itens"
+                        android:elevation="6dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -193,8 +198,11 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="93dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="19dp"
-                        android:background="@drawable/radius_item_tela_listagem_itens">
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/radius_item_tela_listagem_itens"
+                        android:elevation="6dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -228,7 +236,8 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            <!--</ScrollView>-->
+
+            </ScrollView>
 
         </LinearLayout>
 
