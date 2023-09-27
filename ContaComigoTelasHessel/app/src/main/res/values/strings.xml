@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Conta Comigo - Telas Hessel</string>
+
+    <!--**************************  TELA DIVISÃO IGUAIS  *********************************-->
+    <string name="txt_titulo">Confira os valores</string>
+    <string name="txt_tipo_moeda">R$</string>
+    <string name="double_valor_total_conta">160,00</string>
+
+    <string name="txt_item_nome_cliente">Gabriel</string>
+    <string name="txt_item_tipo_moeda">R$</string>
+    <string name="double_item_valor_total_conta">40,00</string>
+    
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_concordo">Concordo</string>
+    <!--**********************************************************************************-->
+
 </resources>
