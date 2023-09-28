@@ -9,9 +9,18 @@
     <string name="txt_item_nome_cliente">Gabriel</string>
     <string name="txt_item_tipo_moeda">R$</string>
     <string name="double_item_valor_total_conta">40,00</string>
-    
-    <string name="btn_cancelar">Cancelar</string>
-    <string name="btn_concordo">Concordo</string>
+
+    <string name="btn_cancelar_tela_divisao_igual">Cancelar</string>
+    <string name="btn_concordo_tela_divisao_igual">Concordo</string>
     <!--**********************************************************************************-->
 
+    <!--************************ TELA DIVISÃO IGUAIS - ETAPA FINAL ***********************-->
+    <string name="txt_etapa_final">Etapa final</string>
+    <string name="txt_titulo_tela_etapa_final">Pagamento das comandas</string>
+
+    <string name="txt_titulo_valor_faltante">Faltam</string>
+    <string name="double_valor_faltante_conta">120,00</string>
+
+    <string name="btn_concluir_tela_etapa_final">Concluir</string>
+    <!--**********************************************************************************-->
 </resources>
